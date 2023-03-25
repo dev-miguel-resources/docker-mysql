@@ -60,7 +60,7 @@ docker kill mysqlserver (mata el proceso padre y sus subprocesos)
 
 ### Para buscar el directorio de persistencia de una imagen
 ```
-docker ispect mysql:8 (buscar la propiedad volumes)
+docker inspect mysql:8 (buscar la propiedad volumes)
 ir a la doc. del docker hub de esa imagen y buscar el titulo where to store data
 
 ```
@@ -97,7 +97,7 @@ docker run -d --name mysqlserver -p 3310:3306 -v E:\\docker_examples\\docker\\vo
 
 ```
 
-### Para eliminar volúmenes anónimos o nombrados
+### Para eliminar volúmen host
 ```
 Solo debes eliminar el directorio local creado
 
